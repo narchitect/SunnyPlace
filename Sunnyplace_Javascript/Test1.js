@@ -35,5 +35,6 @@ function initMap() {
     fillColor: '#00FF00',
     fillOpacity: 0.35
   });
-  shadedFootprintPolygon.setMap(map);
+    shadedFootprintPolygon.setMap(map);
+    %.ajax call method. 
 }
