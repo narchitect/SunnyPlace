@@ -13,3 +13,6 @@ C:\Users\Anwender\Documents\GitHub\SunnyPlace\SunnyPlace_Task1\SunnyPlace_Task1\
 C:\Users\Anwender\Documents\GitHub\SunnyPlace\SunnyPlace_Task1\SunnyPlace_Task1\obj\Debug\net6.0\SunnyPlace_Task1.pdb
 C:\Users\Anwender\Documents\GitHub\SunnyPlace\SunnyPlace_Task1\SunnyPlace_Task1\obj\Debug\net6.0\SunnyPlace_Task1.genruntimeconfig.cache
 C:\Users\Anwender\Documents\GitHub\SunnyPlace\SunnyPlace_Task1\SunnyPlace_Task1\obj\Debug\net6.0\ref\SunnyPlace_Task1.dll
+C:\Users\Anwender\Documents\GitHub\SunnyPlace\SunnyPlace_Task1\SunnyPlace_Task1\bin\Debug\net6.0\Nager.Date.dll
+C:\Users\Anwender\Documents\GitHub\SunnyPlace\SunnyPlace_Task1\SunnyPlace_Task1\bin\Debug\net6.0\SunCalcSharp.dll
+C:\Users\Anwender\Documents\GitHub\SunnyPlace\SunnyPlace_Task1\SunnyPlace_Task1\obj\Debug\net6.0\SunnyPlace_Task1.csproj.CopyComplete

@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Nager.Date" Version="1.40.0" />
+    <PackageReference Include="SunCalcSharp" Version="1.0.4" />
+  </ItemGroup>
+
 </Project>

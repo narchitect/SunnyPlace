@@ -7,8 +7,28 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "SunnyPlace_Task1/1.0.0": {
+        "dependencies": {
+          "Nager.Date": "1.40.0",
+          "SunCalcSharp": "1.0.4"
+        },
         "runtime": {
           "SunnyPlace_Task1.dll": {}
+        }
+      },
+      "Nager.Date/1.40.0": {
+        "runtime": {
+          "lib/net6.0/Nager.Date.dll": {
+            "assemblyVersion": "1.40.0.0",
+            "fileVersion": "1.40.0.0"
+          }
+        }
+      },
+      "SunCalcSharp/1.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/SunCalcSharp.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
         }
       }
     }
@@ -18,6 +38,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Nager.Date/1.40.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f4sOPgagkz8Aj04QRJzGkiNso3L/oU8/vUP8UoRkjgvvoICz+6W6R9WWs+jnExDccqkx2ROYBZs2MI6rPUVidw==",
+      "path": "nager.date/1.40.0",
+      "hashPath": "nager.date.1.40.0.nupkg.sha512"
+    },
+    "SunCalcSharp/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ubGlGtjUYO1KqS1GwBGe67I7Km6fHtIPKKgGgla/80vXtREMzs1SlOsGWnX5YUquCZONs59Tqve4Dcuk4MFNaQ==",
+      "path": "suncalcsharp/1.0.4",
+      "hashPath": "suncalcsharp.1.0.4.nupkg.sha512"
     }
   }
 }
