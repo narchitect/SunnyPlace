@@ -1,0 +1,32 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+
+<div @onclick="OnClick">
+    <div id="map" style="height: 500px;"></div>
+</div>
+
+@code {
+    private Map _map;
+
+    private async Task InitializeMap()
+    {
+        var options = new MapOptions
+        {
+            Center = new LatLng(51.505, -0.09),
+            Zoom = 13,
+            PreferCanvas = true
+        };
+        _map = new Map("map", options);
+        await _map.AddTileLayerAsync("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png");
+    }
+
+    private void OnClick(MouseEventArgs e)
+    {
+        _map.PanTo(new LatLng(51.505, -0.09));
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await InitializeMap();
+    }
+}
+

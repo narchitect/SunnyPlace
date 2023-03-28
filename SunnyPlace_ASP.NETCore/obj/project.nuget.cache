@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y4j/n04/7j0c7oJDnLrXDWTufS14tuOO4CRhBhaniVlN1WRsACaJVXWH1+7cB3NE+VQimnAjZ7nRB/1xQ4QjfQ==",
+  "success": true,
+  "projectFilePath": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/SunnyPlace_ASP.NETCore.csproj",
+  "expectedPackageFiles": [
+    "/Users/kimnayun/.nuget/packages/leaflet/0.7.3/leaflet.0.7.3.nupkg.sha512"
+  ],
+  "logs": []
+}

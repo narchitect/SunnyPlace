@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "leaflet/0.7.3": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "leaflet/0.7.3": {
+      "sha512": "R20Vv1lXuqcu6lKeHFy8KnahLxetHaKBS0S2y/mrq+phhkTtz0zIr6isxJR89LuQR9v53aKNMFVyaxLU+zagEw==",
+      "type": "package",
+      "path": "leaflet/0.7.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Content/images/layers-2x.png",
+        "content/Content/images/layers.png",
+        "content/Content/images/marker-icon-2x.png",
+        "content/Content/images/marker-icon.png",
+        "content/Content/images/marker-shadow.png",
+        "content/Content/leaflet.css",
+        "content/Scripts/leaflet-0.7.3.js",
+        "content/Scripts/leaflet-0.7.3.min.js",
+        "leaflet.0.7.3.nupkg.sha512",
+        "leaflet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "leaflet >= 0.7.3"
+    ]
+  },
+  "packageFolders": {
+    "/Users/kimnayun/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/SunnyPlace_ASP.NETCore.csproj",
+      "projectName": "SunnyPlace_ASP.NETCore",
+      "projectPath": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/SunnyPlace_ASP.NETCore.csproj",
+      "packagesPath": "/Users/kimnayun/.nuget/packages/",
+      "outputPath": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/kimnayun/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "leaflet": {
+            "target": "Package",
+            "version": "[0.7.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

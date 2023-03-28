@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{42DAD1F3-B839-4479-BB1A-292BFFECA897}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Map.razor">
+    <Files>
+      <File FileName="wwwroot/index.html" Line="1" Column="1" />
+      <File FileName="wwwroot/map.js" Line="8" Column="1" />
+      <File FileName="Pages/Index.razor" Line="1" Column="1" />
+      <File FileName="Pages/map.cshtml" Line="16" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SunnyPlace_WSMB" expanded="True">
+            <Node name="SunnyPlace_WSMB" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SunnyPlace__WSMB PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
