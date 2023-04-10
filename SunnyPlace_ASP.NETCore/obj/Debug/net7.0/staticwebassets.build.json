@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "977Na0TUWI3ECjmfz9HYwdsONaT6PqG9rIqmAe5CO88=",
+  "Hash": "u3P6hSTNKYemHBJSMTAqtWn1AB+TwtbYA88JnIvTfnQ=",
   "Source": "SunnyPlace_ASP.NETCore",
   "BasePath": "_content/SunnyPlace_ASP.NETCore",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/wwwroot/Data/products.json",
+      "SourceId": "SunnyPlace_ASP.NETCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/wwwroot/",
+      "BasePath": "_content/SunnyPlace_ASP.NETCore",
+      "RelativePath": "Data/products.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Data/products.json"
     },
     {
       "Identity": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/wwwroot/favicon.ico",

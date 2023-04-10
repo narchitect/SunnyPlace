@@ -16,16 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/Model/map.razor]
-build_metadata.AdditionalFiles.TargetPath = TW9kZWwvbWFwLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/Pages/Map.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/Pages/Privacy.cshtml]

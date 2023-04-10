@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/SunnyPlace_ASP.NETCore.bundle.scp.css"
     },
     {
+      "Id": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/wwwroot/Data/products.json",
+      "PackagePath": "staticwebassets/Data/products.json"
+    },
+    {
       "Id": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

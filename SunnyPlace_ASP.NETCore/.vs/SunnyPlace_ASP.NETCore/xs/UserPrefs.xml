@@ -1,10 +1,20 @@
 ﻿<Properties StartupConfiguration="{E7AAE701-60BD-4D17-8D08-ED5B358D6AFF}|https">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Model/map.razor">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Map.cshtml">
     <Files>
-      <File FileName="Pages/Index.cshtml" Line="13" Column="1" />
-      <File FileName="Model/map.razor" Line="26" Column="1" />
-      <File FileName="Model/Product.cs" Line="1" Column="1" />
+      <File FileName="Pages/Index.cshtml" Line="16" Column="1" />
+      <File FileName="Model/Product.cs" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Pages/Privacy.cshtml" Line="10" Column="1" />
+      <File FileName="Pages/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/Shared/_Layout.cshtml" Line="49" Column="32" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Pages/Index.cshtml.cs" Line="18" Column="52" />
+      <File FileName="wwwroot/css/site.css" Line="1" Column="1" />
+      <File FileName="Pages/Map.cshtml" Line="19" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,23 +22,24 @@
           <Node name="SunnyPlace_ASP.NETCore" expanded="True">
             <Node name="SunnyPlace_ASP.NETCore" expanded="True">
               <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True">
-                  <Node name="leaflet" selected="True" />
-                </Node>
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Model" expanded="True" />
-              <Node name="Pages" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="Map.cshtml" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
               <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SunnyPlace__ASP.NETCore PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SunnyPlace__ASP.NETCore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
