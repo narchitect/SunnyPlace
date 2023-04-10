@@ -3,9 +3,44 @@
 @{
     ViewData["Title"] = "Map";
 }
+<!-- Create a search bar on the page-->
+<div class="search-container">
+    <input type="text" id="address" placeholder="Enter address...">
+    <button id="search" onclick="searchAddress()">Search</button>
+</div>
+<script>
+    async function searchAddress() {
 
+        const address = document.getElementById('address').value;
+
+        if (!address) return;
+
+        try {
+            const response = await fetch(
+                `https://nominatim.openstreetmap.org/search?format=json&q=${address}&limit=1`
+            );
+
+            if (response.ok) {
+                const result = await response.json();
+
+                if (result.length > 0) {
+                    const lat = parseFloat(result[0].lat);
+                    const lon = parseFloat(result[0].lon);
+                    map.setView([lat, lon], 16);
+                } else {
+                    alert('Address not found. Please try again.');
+                }
+            } else {
+                alert('Error occurred while searching. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
+</script>
+
+<!-- Create a Map on the page-->
 <div id="map" style="height: 500px; width: 100%;"></div>
-
 <script>
     // Create a map and set its center and zoom level
     var map = L.map('map').setView([51.505, -0.09], 13);
