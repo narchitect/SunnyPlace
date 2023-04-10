@@ -74,26 +74,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anwender\\.nuget\\packages\\": {}
+    "/Users/kimnayun/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anwender\\Documents\\GitHub\\SunnyPlace\\SunnyPlace_Task1\\SunnyPlace_Task1\\SunnyPlace_Task1.csproj",
+      "projectUniqueName": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_Task1/SunnyPlace_Task1/SunnyPlace_Task1.csproj",
       "projectName": "SunnyPlace_Task1",
-      "projectPath": "C:\\Users\\Anwender\\Documents\\GitHub\\SunnyPlace\\SunnyPlace_Task1\\SunnyPlace_Task1\\SunnyPlace_Task1.csproj",
-      "packagesPath": "C:\\Users\\Anwender\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anwender\\Documents\\GitHub\\SunnyPlace\\SunnyPlace_Task1\\SunnyPlace_Task1\\obj\\",
+      "projectPath": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_Task1/SunnyPlace_Task1/SunnyPlace_Task1.csproj",
+      "packagesPath": "/Users/kimnayun/.nuget/packages/",
+      "outputPath": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_Task1/SunnyPlace_Task1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Anwender\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/kimnayun/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -137,7 +135,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }

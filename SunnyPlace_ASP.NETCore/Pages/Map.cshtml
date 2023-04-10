@@ -1,4 +1,9 @@
-﻿@page
+﻿
+
+
+
+@page
+@model SunnyPlace.Pages.MapModel
 
 @{
     ViewData["Title"] = "Map";
@@ -8,8 +13,7 @@
     <input type="text" id="address" placeholder="Enter address...">
     <button id="search" onclick="searchAddress()">Search</button>
 </div>
-<script>
-    async function searchAddress() {
+<script>async function searchAddress() {
 
         const address = document.getElementById('address').value;
 
@@ -36,21 +40,20 @@
         } catch (error) {
             console.error('Error:', error);
         }
-    }
-</script>
+    }</script>
 
 <!-- Create a Map on the page-->
 <div id="map" style="height: 500px; width: 100%;"></div>
-<script>
-    // Create a map and set its center and zoom level
+<script>// Create a map and set its center and zoom level
     var map = L.map('map').setView([48.1487636, 11.5684208], 16);
 
     // Add a background to the map using OpenStreetMap
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
-</script>
+    }).addTo(map);</script>
+
+
 
 
 

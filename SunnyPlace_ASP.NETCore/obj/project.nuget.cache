@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4j/n04/7j0c7oJDnLrXDWTufS14tuOO4CRhBhaniVlN1WRsACaJVXWH1+7cB3NE+VQimnAjZ7nRB/1xQ4QjfQ==",
+  "dgSpecHash": "+CZT3XFX8zZrrEikR/V9bEV+rFM366s/Bkm8D4H8wQBSFeJiSW1hydz3Am4a1/HfPTWs8Gpy4Q8cvkPsfOUyLA==",
   "success": true,
   "projectFilePath": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/SunnyPlace_ASP.NETCore.csproj",
   "expectedPackageFiles": [
-    "/Users/kimnayun/.nuget/packages/leaflet/0.7.3/leaflet.0.7.3.nupkg.sha512"
+    "/Users/kimnayun/.nuget/packages/leaflet/0.7.3/leaflet.0.7.3.nupkg.sha512",
+    "/Users/kimnayun/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/kimnayun/.nuget/packages/suncalcnet/1.2.2/suncalcnet.1.2.2.nupkg.sha512",
+    "/Users/kimnayun/.nuget/packages/suncalcsharp/1.0.4/suncalcsharp.1.0.4.nupkg.sha512"
   ],
   "logs": []
 }

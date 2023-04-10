@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "twKuvUMENpuZQ/iM28iNUrBQg+R51RUkOzJ1jtnkl1/zq68FdB9XfgQvYH6/R+yfiDs/2Ijf2Ice7X4driK61A==",
+  "dgSpecHash": "c1yCJFgV+FCA+lb6KvfbAVbTqz0X2IH2fGMlGQboQMXaIZF4pPQmLxcUy6ByWCp9GCwkzt8HhBiFwOErpXYC3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anwender\\Documents\\GitHub\\SunnyPlace\\SunnyPlace_Task1\\SunnyPlace_Task1\\SunnyPlace_Task1.csproj",
+  "projectFilePath": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_Task1/SunnyPlace_Task1/SunnyPlace_Task1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Anwender\\.nuget\\packages\\nager.date\\1.40.0\\nager.date.1.40.0.nupkg.sha512",
-    "C:\\Users\\Anwender\\.nuget\\packages\\suncalcsharp\\1.0.4\\suncalcsharp.1.0.4.nupkg.sha512"
+    "/Users/kimnayun/.nuget/packages/nager.date/1.40.0/nager.date.1.40.0.nupkg.sha512",
+    "/Users/kimnayun/.nuget/packages/suncalcsharp/1.0.4/suncalcsharp.1.0.4.nupkg.sha512"
   ],
   "logs": []
 }

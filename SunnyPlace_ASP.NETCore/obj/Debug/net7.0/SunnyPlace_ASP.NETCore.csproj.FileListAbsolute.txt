@@ -29,3 +29,7 @@
 /Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/obj/Debug/net7.0/SunnyPlace_ASP.NETCore.pdb
 /Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/obj/Debug/net7.0/SunnyPlace_ASP.NETCore.genruntimeconfig.cache
 /Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/obj/Debug/net7.0/ref/SunnyPlace_ASP.NETCore.dll
+/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/bin/Debug/net7.0/SunCalcNet.dll
+/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/bin/Debug/net7.0/SunCalcSharp.dll
+/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/obj/Debug/net7.0/SunnyPlace_ASP.NETCore.csproj.CopyComplete
