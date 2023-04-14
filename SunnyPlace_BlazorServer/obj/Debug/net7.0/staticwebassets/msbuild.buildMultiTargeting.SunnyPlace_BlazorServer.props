@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/SunnyPlace_BlazorServer.props" />
-</Project>

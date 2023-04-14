@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../buildMultiTargeting/SunnyPlace_ASP.NETCore.props" />
+  <Import Project="..\buildMultiTargeting\SunnyPlace_ASP.NETCore.props" />
 </Project>

@@ -1,20 +1,21 @@
-﻿
-
-
-
-@page
+﻿@page
 @model SunnyPlace.Pages.MapModel
 
 @{
     ViewData["Title"] = "Map";
 }
+
 <!-- Create a search bar on the page-->
 <div class="search-container">
     <input type="text" id="address" placeholder="Enter address...">
     <button id="search" onclick="searchAddress()">Search</button>
 </div>
-<script>async function searchAddress() {
 
+<!-- Create a Map on the page-->
+<div id="map" style="height: 500px; width: 100%;"></div>
+
+<script>
+    async function searchAddress() {
         const address = document.getElementById('address').value;
 
         if (!address) return;
@@ -40,18 +41,41 @@
         } catch (error) {
             console.error('Error:', error);
         }
-    }</script>
+    }
 
-<!-- Create a Map on the page-->
-<div id="map" style="height: 500px; width: 100%;"></div>
-<script>// Create a map and set its center and zoom level
+    function addShadowToMap() {
+    var shadowCoordinates = @Html.Raw(Model.ShadowCoordinatesJson);
+
+    console.log('Original shadow coordinates:', shadowCoordinates);
+
+    // Convert the shadow coordinates from lat/lng to Leaflet's LatLng objects
+    var convertedShadowCoordinates = shadowCoordinates.map(coord => L.latLng(coord[0], coord[1]));
+
+    console.log('Converted shadow coordinates:', convertedShadowCoordinates);
+
+    // Create a polygon from the shadow coordinates
+    console.log('Original shadow coordinates:', shadowCoordinates);
+    console.log('Converted shadow coordinates:', shadowCoordinates.map(coord => L.latLng(coord[0], coord[1])));
+
+    var shadowPolygon = L.polygon(convertedShadowCoordinates, { color: 'gray', fillColor: 'gray', fillOpacity: 0.5 });
+
+    // Add the polygon to the map
+    shadowPolygon.addTo(map);
+}
+
+
+    // Create a map and set its center and zoom level
     var map = L.map('map').setView([48.1487636, 11.5684208], 16);
 
     // Add a background to the map using OpenStreetMap
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);</script>
+    }).addTo(map);
+
+    // Call the addShadowToMap function after initializing the map
+    addShadowToMap();
+</script>
 
 
 
