@@ -132,24 +132,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/kimnayun/.nuget/packages/": {}
+    "C:\\Users\\Anwender\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/SunnyPlace_ASP.NETCore.csproj",
+      "projectUniqueName": "C:\\Users\\Anwender\\Documents\\GitHub\\SunnyPlace\\SunnyPlace_ASP.NETCore\\SunnyPlace_ASP.NETCore.csproj",
       "projectName": "SunnyPlace_ASP.NETCore",
-      "projectPath": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/SunnyPlace_ASP.NETCore.csproj",
-      "packagesPath": "/Users/kimnayun/.nuget/packages/",
-      "outputPath": "/Users/kimnayun/Projects/SunnyPlace/SunnyPlace_ASP.NETCore/obj/",
+      "projectPath": "C:\\Users\\Anwender\\Documents\\GitHub\\SunnyPlace\\SunnyPlace_ASP.NETCore\\SunnyPlace_ASP.NETCore.csproj",
+      "packagesPath": "C:\\Users\\Anwender\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anwender\\Documents\\GitHub\\SunnyPlace\\SunnyPlace_ASP.NETCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kimnayun/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Anwender\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -204,7 +206,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
